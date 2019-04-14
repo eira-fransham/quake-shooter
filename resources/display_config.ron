@@ -1,0 +1,7 @@
+(
+  title: "Not Quake",
+  fullscreen: false,
+  multisampling: 0,
+  visibility: true,
+  vsync: false,
+)

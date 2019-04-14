@@ -1,0 +1,19 @@
+#![enable(implicit_some)]
+Text(
+    transform: (
+        id: "test",
+        anchor: BottomLeft,
+        x: 20.,
+        y: 10.,
+        width: 100.,
+        height: 40.,
+        transparent: true,
+    ),
+    text: (
+        text: "Test",
+        font_size: 25.,
+        color: (1., 1., 1., 1.),
+        align: TopRight,
+        font: File("font/D-DIN.ttf", Ttf, ()),
+    ),
+)

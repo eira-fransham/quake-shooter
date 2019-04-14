@@ -1,0 +1,3 @@
+[submodule "quake3_loader"]
+	path = quake3_loader
+	url = git@github.com:neildanson/quake3_loader.git

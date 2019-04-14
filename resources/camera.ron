@@ -1,0 +1,14 @@
+#![enable(implicit_some)]
+CameraPrefab(
+    transform: (
+        x: 0.,
+        y: 0.,
+        z: 1.,
+    ),
+    camera: (
+        text: "Test",
+        font_size: 25.,
+        color: (1., 1., 1., 1.),
+        font: File("font/square.ttf", Ttf, ()),
+    ),
+)
