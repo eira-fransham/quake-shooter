@@ -5,7 +5,8 @@ authors = []
 edition = "2018"
 
 [dependencies]
-amethyst = "0.10"
-amethyst-bsp = { path = "../amethyst-bsp/" }
-gfx = "0.17.1"
+amethyst = { git = "https://github.com/Vurich/amethyst.git" }
+amethyst-bsp = { git = "https://github.com/Vurich/amethyst-bsp.git" }
+amethyst-anysource = { git = "https://github.com/Vurich/amethyst-anysource.git" }
+amethyst-pk3 = { git = "https://github.com/Vurich/amethyst-pk3.git" }
 serde = "1.0"
